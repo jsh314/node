@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true}))
 
 //127.0.0.1:port/
 app.get('/', (req, res) => {
-    res.send('hello world thank you');
+    res.send('hello world good bye');
 })
 
 app.get('/test', (req, res) => {
